@@ -1,0 +1,69 @@
+[buildPlans.iosevka-term-custom]
+family = "Iosevka Term Custom"
+spacing = "term"
+serifs = "sans"
+no-cv-ss = true
+no-ligation = true
+
+[buildPlans.iosevka-term-custom.variants.design]
+capital-w = "straight-vertical-sides"
+w = "straight-vertical-sides"
+f = "flat-hook"
+g = "double-storey-open"
+i = "flat-tailed"
+k = "curly-serifless"
+l = "tailed-serifed"
+m = "normal"
+r = "serifed"
+t = "flat-hook"
+y = "straight-turn"
+eszet = "sulzbacher"
+cyrl-ef = "serifless"
+asterisk = "penta-low"
+underscore = "low"
+brace = "curly"
+ampersand = "upper-open"
+at = "short"
+dollar = "open"
+percent = "rings-continuous-slash"
+lig-ltgteq = "slanted"
+
+[buildPlans.iosevka-term-custom.variants.italic]
+f = "flat-hook-extended"
+t = "standard"
+bar = "force-upright"
+
+[buildPlans.iosevka-aile-custom]
+family = "Iosevka Aile Custom"
+spacing = "quasi-proportional"
+serifs = "sans"
+no-cv-ss = true
+no-ligation = true
+
+[buildPlans.iosevka-aile-custom.variants.design]
+capital-w = "straight-vertical-sides"
+w = "straight-vertical-sides"
+f = "flat-hook"
+g = "double-storey-open"
+i = "flat-tailed"
+k = "curly-serifless"
+l = "tailed-serifed"
+m = "normal"
+r = "serifed"
+t = "flat-hook"
+y = "straight-turn"
+eszet = "sulzbacher"
+cyrl-ef = "serifless"
+asterisk = "penta-low"
+underscore = "low"
+brace = "curly"
+ampersand = "upper-open"
+at = "short"
+dollar = "open"
+percent = "rings-continuous-slash"
+lig-ltgteq = "slanted"
+
+[buildPlans.iosevka-aile-custom.variants.italic]
+f = "flat-hook-extended"
+t = "standard"
+bar = "force-upright"

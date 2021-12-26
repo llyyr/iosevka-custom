@@ -1,0 +1,630 @@
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('woff2/iosevka-term-custom-thin.woff2') format('woff2'), url('ttf/iosevka-term-custom-thin.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('woff2/iosevka-term-custom-extendedthin.woff2') format('woff2'), url('ttf/iosevka-term-custom-extendedthin.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('woff2/iosevka-term-custom-thinoblique.woff2') format('woff2'), url('ttf/iosevka-term-custom-thinoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web Oblique';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: normal;
+	src: url('woff2/iosevka-term-custom-thinoblique.woff2') format('woff2'), url('ttf/iosevka-term-custom-thinoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('woff2/iosevka-term-custom-extendedthinoblique.woff2') format('woff2'), url('ttf/iosevka-term-custom-extendedthinoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web Oblique';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: expanded;
+	src: url('woff2/iosevka-term-custom-extendedthinoblique.woff2') format('woff2'), url('ttf/iosevka-term-custom-extendedthinoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('woff2/iosevka-term-custom-thinitalic.woff2') format('woff2'), url('ttf/iosevka-term-custom-thinitalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('woff2/iosevka-term-custom-extendedthinitalic.woff2') format('woff2'), url('ttf/iosevka-term-custom-extendedthinitalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('woff2/iosevka-term-custom-extralight.woff2') format('woff2'), url('ttf/iosevka-term-custom-extralight.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('woff2/iosevka-term-custom-extendedextralight.woff2') format('woff2'), url('ttf/iosevka-term-custom-extendedextralight.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('woff2/iosevka-term-custom-extralightoblique.woff2') format('woff2'), url('ttf/iosevka-term-custom-extralightoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web Oblique';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	src: url('woff2/iosevka-term-custom-extralightoblique.woff2') format('woff2'), url('ttf/iosevka-term-custom-extralightoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('woff2/iosevka-term-custom-extendedextralightoblique.woff2') format('woff2'), url('ttf/iosevka-term-custom-extendedextralightoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web Oblique';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: expanded;
+	src: url('woff2/iosevka-term-custom-extendedextralightoblique.woff2') format('woff2'), url('ttf/iosevka-term-custom-extendedextralightoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('woff2/iosevka-term-custom-extralightitalic.woff2') format('woff2'), url('ttf/iosevka-term-custom-extralightitalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('woff2/iosevka-term-custom-extendedextralightitalic.woff2') format('woff2'), url('ttf/iosevka-term-custom-extendedextralightitalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('woff2/iosevka-term-custom-light.woff2') format('woff2'), url('ttf/iosevka-term-custom-light.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('woff2/iosevka-term-custom-extendedlight.woff2') format('woff2'), url('ttf/iosevka-term-custom-extendedlight.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('woff2/iosevka-term-custom-lightoblique.woff2') format('woff2'), url('ttf/iosevka-term-custom-lightoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web Oblique';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	src: url('woff2/iosevka-term-custom-lightoblique.woff2') format('woff2'), url('ttf/iosevka-term-custom-lightoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('woff2/iosevka-term-custom-extendedlightoblique.woff2') format('woff2'), url('ttf/iosevka-term-custom-extendedlightoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web Oblique';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: expanded;
+	src: url('woff2/iosevka-term-custom-extendedlightoblique.woff2') format('woff2'), url('ttf/iosevka-term-custom-extendedlightoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('woff2/iosevka-term-custom-lightitalic.woff2') format('woff2'), url('ttf/iosevka-term-custom-lightitalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('woff2/iosevka-term-custom-extendedlightitalic.woff2') format('woff2'), url('ttf/iosevka-term-custom-extendedlightitalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('woff2/iosevka-term-custom-regular.woff2') format('woff2'), url('ttf/iosevka-term-custom-regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('woff2/iosevka-term-custom-extended.woff2') format('woff2'), url('ttf/iosevka-term-custom-extended.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('woff2/iosevka-term-custom-oblique.woff2') format('woff2'), url('ttf/iosevka-term-custom-oblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web Oblique';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	src: url('woff2/iosevka-term-custom-oblique.woff2') format('woff2'), url('ttf/iosevka-term-custom-oblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('woff2/iosevka-term-custom-extendedoblique.woff2') format('woff2'), url('ttf/iosevka-term-custom-extendedoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web Oblique';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: expanded;
+	src: url('woff2/iosevka-term-custom-extendedoblique.woff2') format('woff2'), url('ttf/iosevka-term-custom-extendedoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('woff2/iosevka-term-custom-italic.woff2') format('woff2'), url('ttf/iosevka-term-custom-italic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('woff2/iosevka-term-custom-extendeditalic.woff2') format('woff2'), url('ttf/iosevka-term-custom-extendeditalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('woff2/iosevka-term-custom-medium.woff2') format('woff2'), url('ttf/iosevka-term-custom-medium.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('woff2/iosevka-term-custom-extendedmedium.woff2') format('woff2'), url('ttf/iosevka-term-custom-extendedmedium.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('woff2/iosevka-term-custom-mediumoblique.woff2') format('woff2'), url('ttf/iosevka-term-custom-mediumoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web Oblique';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	src: url('woff2/iosevka-term-custom-mediumoblique.woff2') format('woff2'), url('ttf/iosevka-term-custom-mediumoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('woff2/iosevka-term-custom-extendedmediumoblique.woff2') format('woff2'), url('ttf/iosevka-term-custom-extendedmediumoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web Oblique';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: expanded;
+	src: url('woff2/iosevka-term-custom-extendedmediumoblique.woff2') format('woff2'), url('ttf/iosevka-term-custom-extendedmediumoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('woff2/iosevka-term-custom-mediumitalic.woff2') format('woff2'), url('ttf/iosevka-term-custom-mediumitalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('woff2/iosevka-term-custom-extendedmediumitalic.woff2') format('woff2'), url('ttf/iosevka-term-custom-extendedmediumitalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('woff2/iosevka-term-custom-semibold.woff2') format('woff2'), url('ttf/iosevka-term-custom-semibold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('woff2/iosevka-term-custom-extendedsemibold.woff2') format('woff2'), url('ttf/iosevka-term-custom-extendedsemibold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('woff2/iosevka-term-custom-semiboldoblique.woff2') format('woff2'), url('ttf/iosevka-term-custom-semiboldoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web Oblique';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	src: url('woff2/iosevka-term-custom-semiboldoblique.woff2') format('woff2'), url('ttf/iosevka-term-custom-semiboldoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('woff2/iosevka-term-custom-extendedsemiboldoblique.woff2') format('woff2'), url('ttf/iosevka-term-custom-extendedsemiboldoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web Oblique';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: expanded;
+	src: url('woff2/iosevka-term-custom-extendedsemiboldoblique.woff2') format('woff2'), url('ttf/iosevka-term-custom-extendedsemiboldoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('woff2/iosevka-term-custom-semibolditalic.woff2') format('woff2'), url('ttf/iosevka-term-custom-semibolditalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('woff2/iosevka-term-custom-extendedsemibolditalic.woff2') format('woff2'), url('ttf/iosevka-term-custom-extendedsemibolditalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('woff2/iosevka-term-custom-bold.woff2') format('woff2'), url('ttf/iosevka-term-custom-bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('woff2/iosevka-term-custom-extendedbold.woff2') format('woff2'), url('ttf/iosevka-term-custom-extendedbold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('woff2/iosevka-term-custom-boldoblique.woff2') format('woff2'), url('ttf/iosevka-term-custom-boldoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web Oblique';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	src: url('woff2/iosevka-term-custom-boldoblique.woff2') format('woff2'), url('ttf/iosevka-term-custom-boldoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('woff2/iosevka-term-custom-extendedboldoblique.woff2') format('woff2'), url('ttf/iosevka-term-custom-extendedboldoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web Oblique';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: expanded;
+	src: url('woff2/iosevka-term-custom-extendedboldoblique.woff2') format('woff2'), url('ttf/iosevka-term-custom-extendedboldoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('woff2/iosevka-term-custom-bolditalic.woff2') format('woff2'), url('ttf/iosevka-term-custom-bolditalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('woff2/iosevka-term-custom-extendedbolditalic.woff2') format('woff2'), url('ttf/iosevka-term-custom-extendedbolditalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('woff2/iosevka-term-custom-extrabold.woff2') format('woff2'), url('ttf/iosevka-term-custom-extrabold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('woff2/iosevka-term-custom-extendedextrabold.woff2') format('woff2'), url('ttf/iosevka-term-custom-extendedextrabold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('woff2/iosevka-term-custom-extraboldoblique.woff2') format('woff2'), url('ttf/iosevka-term-custom-extraboldoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web Oblique';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	src: url('woff2/iosevka-term-custom-extraboldoblique.woff2') format('woff2'), url('ttf/iosevka-term-custom-extraboldoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('woff2/iosevka-term-custom-extendedextraboldoblique.woff2') format('woff2'), url('ttf/iosevka-term-custom-extendedextraboldoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web Oblique';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: expanded;
+	src: url('woff2/iosevka-term-custom-extendedextraboldoblique.woff2') format('woff2'), url('ttf/iosevka-term-custom-extendedextraboldoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('woff2/iosevka-term-custom-extrabolditalic.woff2') format('woff2'), url('ttf/iosevka-term-custom-extrabolditalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('woff2/iosevka-term-custom-extendedextrabolditalic.woff2') format('woff2'), url('ttf/iosevka-term-custom-extendedextrabolditalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('woff2/iosevka-term-custom-heavy.woff2') format('woff2'), url('ttf/iosevka-term-custom-heavy.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('woff2/iosevka-term-custom-extendedheavy.woff2') format('woff2'), url('ttf/iosevka-term-custom-extendedheavy.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('woff2/iosevka-term-custom-heavyoblique.woff2') format('woff2'), url('ttf/iosevka-term-custom-heavyoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web Oblique';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	src: url('woff2/iosevka-term-custom-heavyoblique.woff2') format('woff2'), url('ttf/iosevka-term-custom-heavyoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('woff2/iosevka-term-custom-extendedheavyoblique.woff2') format('woff2'), url('ttf/iosevka-term-custom-extendedheavyoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web Oblique';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: expanded;
+	src: url('woff2/iosevka-term-custom-extendedheavyoblique.woff2') format('woff2'), url('ttf/iosevka-term-custom-extendedheavyoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('woff2/iosevka-term-custom-heavyitalic.woff2') format('woff2'), url('ttf/iosevka-term-custom-heavyitalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Custom Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('woff2/iosevka-term-custom-extendedheavyitalic.woff2') format('woff2'), url('ttf/iosevka-term-custom-extendedheavyitalic.ttf') format('truetype');
+}
